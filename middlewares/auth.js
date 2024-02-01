@@ -22,6 +22,17 @@ async function restrictToLoggedInUserOnly(req, res, next) {
     next()
 }
 
+async function restrictToRole(roles = [], req, res, next) {
+    if (!roles.includes(req.user._doc.role)) {
+        return res.json({
+            msg: "Can't use service.",
+            error: "Don't have permission."
+        })
+    }
+    next()
+}
+
 module.exports = {
-    restrictToLoggedInUserOnly
+    restrictToLoggedInUserOnly,
+    restrictToRole
 }
