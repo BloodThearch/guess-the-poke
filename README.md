@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to guess-the-poke 👋</h1>
+<h1 align="center">✨ Welcome to guess-the-poke ✨</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> Pokemon guessing game api
+> Pokemon guessing game api/website
 
 ## Install
 
@@ -16,9 +16,17 @@ npm install
 
 ## Usage
 
+<p>For starting the project: </p>
 ```sh
 npm start
 ```
+
+<p>For starting the project in development mode: </p>
+```sh
+npm dev
+```
+
+<p>The app will start running at localhost:8000 by default</p>
 
 ## Author
 
