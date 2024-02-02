@@ -17,12 +17,12 @@ npm install
 ## Usage
 
 <p>For starting the project: </p>
-```sh
+```
 npm start
 ```
 
 <p>For starting the project in development mode: </p>
-```sh
+```
 npm dev
 ```
 
