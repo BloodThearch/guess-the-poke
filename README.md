@@ -16,17 +16,17 @@ npm install
 
 ## Usage
 
-<p>For starting the project: </p>
+For starting the project:
 ```sh
 npm start
 ```
 
-<p>For starting the project in development mode: </p>
+For starting the project in development mode:
 ```
 npm dev
 ```
 
-<p>The app will start running at localhost:8000 by default</p>
+The app will start running at localhost:8000 by default
 
 ## Author
 
