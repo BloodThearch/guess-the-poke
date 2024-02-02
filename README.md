@@ -17,7 +17,7 @@ npm install
 ## Usage
 
 <p>For starting the project: </p>
-```
+```sh
 npm start
 ```
 
